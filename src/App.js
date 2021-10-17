@@ -7,7 +7,6 @@ export default defineComponent({
     // const currentPageName = ref('StartPage')
     const currentPageName = ref('GamePage')
     function onChangePage(page) {
-      console.log(page)
       currentPageName.value = page
     }
     const currentPage = computed(() => {
